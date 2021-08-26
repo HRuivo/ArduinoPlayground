@@ -1,7 +1,9 @@
 const int readPin = A1;
 const int redLedPin = 9;
+const int greenLedPin = 10; 
 
-float voltageWarningThreshold = 3.;
+float voltageWarningThreshold = 4.;
+float optimalMinVoltage = 2.f;
 
 // converts pin read to voltage value
 float pinReadToVoltage(int readValue, int maxVoltage = 5) {
@@ -13,15 +15,22 @@ void setup() {
 
   pinMode(readPin, INPUT);
   pinMode(redLedPin, OUTPUT);
+  pinMode(greenLedPin, OUTPUT);
 }
 
 void loop() {
   float currentVoltageFromPotentiometer =
     pinReadToVoltage(analogRead(readPin));
 
-  if (currentVoltageFromPotentiometer >= voltageWarningThreshold) {
+  if (currentVoltageFromPotentiometer >= optimalMinVoltage &&
+      currentVoltageFromPotentiometer < voltageWarningThreshold) {
+    digitalWrite(greenLedPin, HIGH);
+    digitalWrite(redLedPin, LOW);
+  } else if (currentVoltageFromPotentiometer >= voltageWarningThreshold) {
+    digitalWrite(greenLedPin, LOW);
     digitalWrite(redLedPin, HIGH);
   } else {
+    digitalWrite(greenLedPin, LOW);
     digitalWrite(redLedPin, LOW);
   }
 
