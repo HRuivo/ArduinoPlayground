@@ -8,3 +8,4 @@ Examples and adapter exercises from his most excellent course.
 - [Potentiometer](https://github.com/HRuivo/ArduinoPlayground/blob/main/Potentiometer.ino) - Control the brightness of a LED light using a potentiometer.
 - [Analog Read](https://github.com/HRuivo/ArduinoPlayground/blob/main/AnalogRead.ino) - Reading the converted voltage values from the breadboard into an analog pin.
 - [Pulse Width Modulation](https://github.com/HRuivo/ArduinoPlayground/blob/main/PulseWidthModulation.ino) - Understanding PWM (Pulse Width Modulation).
+- [Potentiometer Warning Lights](https://github.com/HRuivo/ArduinoPlayground/blob/main/PotentiometerAndIfStatements.ino) - Light up different LEDs based on potentiometer output.
