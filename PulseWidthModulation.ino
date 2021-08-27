@@ -1,3 +1,5 @@
+// Copyright 2021 Hugo Ruivo.
+
 const int pin = 3;
 
 void setup() {
