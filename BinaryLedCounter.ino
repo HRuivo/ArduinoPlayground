@@ -1,3 +1,5 @@
+// Copyright 2021 Hugo Ruivo.
+
 #include <math.h>
 
 const int pin01 = 2;
