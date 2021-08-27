@@ -1,3 +1,5 @@
+// Copyright 2021 Hugo Ruivo.
+
 const int voltPin = A1;
 float V2 = 0;
 
