@@ -1,3 +1,5 @@
+// Copyright 2021 Hugo Ruivo.
+
 const int potPin = A3;
 const int ledPin = 9;
 
