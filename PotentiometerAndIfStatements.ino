@@ -1,3 +1,5 @@
+// Copyright 2021 Hugo Ruivo.
+
 const int readPin = A1;
 const int redLedPin = 9;
 const int greenLedPin = 10; 
