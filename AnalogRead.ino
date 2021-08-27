@@ -1,3 +1,5 @@
+// Copyright 2021 Hugo Ruivo.
+
 const int readPin = A0;
 int V2 = 0;
 
