@@ -10,3 +10,7 @@ Examples and adapter exercises from his most excellent course.
 - [Pulse Width Modulation](https://github.com/HRuivo/ArduinoPlayground/blob/main/PulseWidthModulation.ino) - Understanding PWM (Pulse Width Modulation).
 - [Potentiometer Warning Lights](https://github.com/HRuivo/ArduinoPlayground/blob/main/PotentiometerAndIfStatements.ino) - Light up different LEDs based on potentiometer output.
 - [Dimmable LED](https://github.com/HRuivo/ArduinoPlayground/blob/main/DimmableLEDProject.ino) - Control the brightness of a LED with a potentiometer.
+- [Dimmable LED with Push Buttons](https://github.com/HRuivo/ArduinoPlayground/blob/main/DimmableLedWithButtons.ino) - Control the brightness of a LED with 2 push buttons.
+- [Passive Buzzer](https://github.com/HRuivo/ArduinoPlayground/blob/main/PassiveBuzzer.ino) - Activate a Passive Buzzer with a Potentiometer.
+- [Controllable Servo](https://github.com/HRuivo/ArduinoPlayground/blob/main/ControllableServo.ino) - Control a servo motor with a Potentiometer.
+- [Push Button](https://github.com/HRuivo/ArduinoPlayground/blob/main/PushButtonPullUp.ino) - Push button example pull up and down.
