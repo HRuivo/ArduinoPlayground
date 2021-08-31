@@ -14,3 +14,4 @@ Examples and adapter exercises from his most excellent course.
 - [Passive Buzzer](https://github.com/HRuivo/ArduinoPlayground/blob/main/PassiveBuzzer.ino) - Activate a Passive Buzzer with a Potentiometer.
 - [Controllable Servo](https://github.com/HRuivo/ArduinoPlayground/blob/main/ControllableServo.ino) - Control a servo motor with a Potentiometer.
 - [Push Button](https://github.com/HRuivo/ArduinoPlayground/blob/main/PushButtonPullUp.ino) - Push button example pull up and down.
+- [Simple LCD](https://github.com/HRuivo/ArduinoPlayground/blob/main/SimpleLCD.ino) - Simple program that prints a counter to a LCD.
